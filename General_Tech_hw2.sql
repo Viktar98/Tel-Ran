@@ -1,4 +1,4 @@
-.. 1) Вывести телефоны всех поставщиков, кроме тех, что из Germany и France.
+-- 1) Вывести телефоны всех поставщиков, кроме тех, что из Germany и France.
   SELECT 
 	  Phone
   FROM 
@@ -6,20 +6,20 @@
   WHERE
 	  Country NOT IN ('Germany','France');	
 
-.. 2) Добавить два произвольных товара.
+-- 2) Добавить два произвольных товара.
   INSERT INTO
 	  Products(ProductName,Price)
   VALUES
 	  ('Rice',3),
 	  ('Butter',7);
 
-.. 3) Удалить поставщиков из USA и Germany.
+-- 3) Удалить поставщиков из USA и Germany.
   DELETE FROM
 	  Suppliers
   WHERE
 	  Country IN ('USA','Germany');	
 
-.. 4) Вывести все товары до 20 EUR из категорий 3 и 6 по убыванию цены.
+-- 4) Вывести все товары до 20 EUR из категорий 3 и 6 по убыванию цены.
   SELECT 
 	  *
   FROM 
@@ -31,7 +31,7 @@
   ORDER BY
 	  Price DESC;
 
-.. 5) Вывести номера трех последних заказов.
+-- 5) Вывести номера трех последних заказов.
   SELECT 
 	  OrderID
   FROM 
