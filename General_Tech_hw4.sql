@@ -76,12 +76,12 @@
       WHERE 
       	SupplierID IN 
             (
-          	SELECT 
-          		SupplierID
+            SELECT 
+          	SupplierID
             FROM 
-          		Products
+          	Products
             WHERE 
-          		CategoryID = 1
+          	CategoryID = 1
     	      );
 
 
