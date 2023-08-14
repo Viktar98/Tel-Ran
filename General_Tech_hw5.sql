@@ -109,6 +109,6 @@ SELECT
        users
  LEFT JOIN
        streams ON
-       users.user_id = streams.author_id
+       users.UserID = streams.AuthorID
  WHERE
-       streams.author_id IS NULL;
+       streams.AuthorID IS NULL;
